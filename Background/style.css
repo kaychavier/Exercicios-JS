@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.amarelo{
+    background-color: #e5e166;
+    transition: all 0.25s ease-in-out;
+}
+
+.azul{
+    background-color: #6A9DE6;
+    transition: all 0.25s ease-in-out;
+}
+.vermelho{
+    background-color: #e64141;
+    transition: all 0.25s ease-in-out;
+}
+
+
+button{
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+div.botoes{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 90vw;
+    text-align: center;
+}
+
+h1, p{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    padding: 5px 10px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0 10px;
+}
+
+.section{
+    text-align:center;
+    padding:60px 100px;
+}
+
+
+.section-dark{
+    background-image: url(./img/capabotao3.png);
+    color:#ddd;
+    background-size: cover !important;
+}
